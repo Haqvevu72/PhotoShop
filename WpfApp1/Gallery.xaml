@@ -1,0 +1,58 @@
+﻿<Window x:Class="WpfApp1.Gallery"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Gallery" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0" Background="MediumSeaGreen">
+            <MenuItem Header="File" Style="{StaticResource MenuItemTemplate}">
+                    <MenuItem Header="New" Style="{StaticResource MenuItemTemplate}"/>
+                    <MenuItem Header="Open" Style="{StaticResource MenuItemTemplate}" />
+                    <MenuItem Header="Save" Style="{StaticResource MenuItemTemplate}"/>
+                    <Separator />
+                    <MenuItem Header="Exit" Style="{StaticResource MenuItemTemplate}" />
+                </MenuItem>
+                <MenuItem Header="Edit" Style="{StaticResource MenuItemTemplate}">
+                    <MenuItem Header="Cut" />
+                    <MenuItem Header="Copy" />
+                    <MenuItem Header="Paste" />
+                </MenuItem>
+                <MenuItem Header="Help" Style="{StaticResource MenuItemTemplate}">
+                    <MenuItem Header="About" />
+                </MenuItem>
+                <MenuItem Header="View" Style="{StaticResource MenuItemTemplate}">
+                    <MenuItem Header="Zoom In"></MenuItem>
+                    <MenuItem Header="Zomm Out"></MenuItem>
+                </MenuItem>
+
+
+        </Menu>
+        
+        <Image Name ="Current" Grid.Row="1" Width="400" Height="250"></Image>
+
+        <Button Grid.Row="2" Style="{StaticResource CircularButtonStyle1}" Margin="0,0,200,0">
+            <Image Source="C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\Pictures\507257.png" Height="30"></Image>
+        </Button>
+
+        <Button Grid.Row="2" Style="{StaticResource CircularButtonStyle1}" Margin="269,0,0,0">
+            <Image Source="C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\Pictures\271226.png" Height="30"></Image>
+        </Button>
+
+        <Button Grid.Row="2" Style="{StaticResource CircularButtonStyle2}" Margin="0,0,40,0">
+            <Image Source="C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\Pictures\727245.png" Height="40" Margin="10,0,0,0"></Image>
+        </Button>
+
+        <Button Grid.Row="2" Style="{StaticResource CircularButtonStyle2}" Margin="110,0,0,0">
+            <Image Source="C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\Pictures\3669483.png" Height="40" Margin="0,0,0,0"></Image>
+        </Button>
+    </Grid>
+</Window>

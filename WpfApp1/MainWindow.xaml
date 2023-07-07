@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Photos" Height="450" Width="800">
+    <Grid>
+
+
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" Background="Bisque">
+                <MenuItem Header="File">
+                    <MenuItem Header="New" />
+                    <MenuItem Header="Open" />
+                    <MenuItem Header="Save" />
+                    <Separator />
+                    <MenuItem Header="Exit" />
+                </MenuItem>
+                <MenuItem Header="Edit">
+                    <MenuItem Header="Cut" />
+                    <MenuItem Header="Copy" />
+                    <MenuItem Header="Paste" />
+                </MenuItem>
+                <MenuItem Header="Help">
+                    <MenuItem Header="About" />
+                </MenuItem>
+                <MenuItem Header="View">
+                    <MenuItem Header="Zoom In"></MenuItem>
+                    <MenuItem Header="Zomm Out"></MenuItem>
+                </MenuItem>
+            </Menu>
+            <!-- Rest of the window content -->
+            <ListView Name="Pictures">
+                <ListView.Background>
+                    <LinearGradientBrush>
+                        <GradientStop Color="CornflowerBlue"></GradientStop>
+                        <GradientStop Color="MediumPurple" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </ListView.Background>
+
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="3" />
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Button Name="Image" Height="120" Width="120" Click="Image_Click">
+                            <Image Source="{Binding Image}"></Image>
+                        </Button>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </DockPanel>
+    </Grid>
+</Window>
