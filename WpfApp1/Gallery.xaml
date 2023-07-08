@@ -39,20 +39,20 @@
         
         <Image Name ="Current" Grid.Row="1" Width="400" Height="250"></Image>
 
-        <Button Grid.Row="2" Style="{StaticResource CircularButtonStyle1}" Margin="0,0,200,0">
-            <Image Source="C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\Pictures\507257.png" Height="30"></Image>
+        <Button Name="Back" Grid.Row="2" Style="{StaticResource CircularButtonStyle1}" Margin="0,0,200,0" Click="Back_Click">
+            <Image Source="C:\Users\Elgun\source\repos\PhotoShop\WpfApp1\Pictures\507257.png" Height="30"></Image>
         </Button>
 
-        <Button Grid.Row="2" Style="{StaticResource CircularButtonStyle1}" Margin="269,0,0,0">
-            <Image Source="C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\Pictures\271226.png" Height="30"></Image>
+        <Button Name="Forward" Grid.Row="2" Style="{StaticResource CircularButtonStyle1}" Margin="269,0,0,0" Click="Forwward_Click">
+            <Image Source="C:\Users\Elgun\source\repos\PhotoShop\WpfApp1\Pictures\271226.png" Height="30"></Image>
         </Button>
 
-        <Button Grid.Row="2" Style="{StaticResource CircularButtonStyle2}" Margin="0,0,40,0">
-            <Image Source="C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\Pictures\727245.png" Height="40" Margin="10,0,0,0"></Image>
+        <Button Name="play" Grid.Row="2" Style="{StaticResource CircularButtonStyle2}" Margin="0,0,40,0">
+            <Image Source="C:\Users\Elgun\source\repos\PhotoShop\WpfApp1\Pictures\727245.png" Height="40" Margin="10,0,0,0"></Image>
         </Button>
 
-        <Button Grid.Row="2" Style="{StaticResource CircularButtonStyle2}" Margin="110,0,0,0">
-            <Image Source="C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\Pictures\3669483.png" Height="40" Margin="0,0,0,0"></Image>
+        <Button Name="stop" Grid.Row="2" Style="{StaticResource CircularButtonStyle2}" Margin="110,0,0,0" >
+            <Image Source="C:\Users\Elgun\source\Repos\PhotoShop\WpfApp1\Pictures\3669483.png" Height="40" Margin="0,0,0,0"></Image>
         </Button>
     </Grid>
 </Window>

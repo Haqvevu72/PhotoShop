@@ -8,8 +8,11 @@ namespace WpfApp1
 {
     internal class Photo
     {
+        private static int id = 0;
+        public int ID { get; set; }
         public Photo(string? image)
         {
+            ID = ++id;
             Image = image;
         }
 
