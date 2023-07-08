@@ -23,10 +23,10 @@ namespace WpfApp1
     {
         internal ObservableCollection<Photo> pictureList = new ObservableCollection<Photo>() 
         {
-            new Photo("C:\\Users\\Elgun\\Source\\Repos\\PhotoShop\\WpfApp1\\Pictures\\child-2715429_640.webp"),
-            new Photo("C:\\Users\\Elgun\\Source\\Repos\\PhotoShop\\WpfApp1\\Pictures\\elephant-1598359_640.webp" ),
-            new Photo("C:\\Users\\Elgun\\source\\Repos\\PhotoShop\\WpfApp1\\Pictures\\rat-152162_640.webp"),
-            new Photo("C:\\Users\\Elgun\\source\\Repos\\PhotoShop\\WpfApp1\\Pictures\\th.jpg")
+            new Photo("Pictures\\child-2715429_640.webp"),
+            new Photo("Pictures\\elephant-1598359_640.webp" ),
+            new Photo("Pictures\\rat-152162_640.webp"),
+            new Photo("Pictures\\th.jpg")
         };
         public MainWindow()
         {

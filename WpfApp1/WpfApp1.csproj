@@ -8,18 +8,33 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Pictures\child-2715429_640.webp">
+    <None Remove="Pictures\271226.png" />
+    <None Remove="Pictures\3669483.png" />
+    <None Remove="Pictures\507257.png" />
+    <None Remove="Pictures\727245.png" />
+    <None Remove="Pictures\child-2715429_640.webp" />
+    <None Remove="Pictures\elephant-1598359_640.webp" />
+    <None Remove="Pictures\rat-152162_640.webp" />
+    <None Remove="Pictures\th.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Pictures\271226.png" />
+    <Resource Include="Pictures\3669483.png" />
+    <Resource Include="Pictures\507257.png" />
+    <Resource Include="Pictures\727245.png" />
+    <Resource Include="Pictures\child-2715429_640.webp">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Pictures\elephant-1598359_640.webp">
+    </Resource>
+    <Resource Include="Pictures\elephant-1598359_640.webp">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Pictures\rat-152162_640.webp">
+    </Resource>
+    <Resource Include="Pictures\rat-152162_640.webp">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Pictures\th.jpg">
+    </Resource>
+    <Resource Include="Pictures\th.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    </Resource>
   </ItemGroup>
 
 </Project>

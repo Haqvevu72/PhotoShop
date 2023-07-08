@@ -27,10 +27,6 @@ C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\App.baml
 C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\Gallery.g.cs
 C:\Users\Elgun\source\repos\WpfApp1\WpfApp1\obj\Debug\net6.0-windows\Gallery.baml
 C:\Users\Elgun\Source\Repos\PhotoShop\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.exe
-C:\Users\Elgun\Source\Repos\PhotoShop\WpfApp1\bin\Debug\net6.0-windows\Pictures\child-2715429_640.webp
-C:\Users\Elgun\Source\Repos\PhotoShop\WpfApp1\bin\Debug\net6.0-windows\Pictures\elephant-1598359_640.webp
-C:\Users\Elgun\Source\Repos\PhotoShop\WpfApp1\bin\Debug\net6.0-windows\Pictures\rat-152162_640.webp
-C:\Users\Elgun\Source\Repos\PhotoShop\WpfApp1\bin\Debug\net6.0-windows\Pictures\th.jpg
 C:\Users\Elgun\Source\Repos\PhotoShop\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.deps.json
 C:\Users\Elgun\Source\Repos\PhotoShop\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.runtimeconfig.json
 C:\Users\Elgun\Source\Repos\PhotoShop\WpfApp1\bin\Debug\net6.0-windows\WpfApp1.dll
